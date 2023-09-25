@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#EE5007;
+    --title-color: whitesmoke;
+    --hover-color: #dc3545;
+}
+
+/* navbar-start */
+.nav-bar{
+    position: relative;
+    height: 100%;
+    background-color: black;
+}
+
+.nav-bar .container .row nav a{
+    color: var(--title-color);
+    font-size: 19px;
+    padding-left: 15px;
+}
+.nav-bar .container .row nav a:hover{
+    color: var(--hover-color);
+}
+.nav-bar .container .row nav a button{
+    width: 116px;
+    border-radius: 30px;
+    height: 46px;
+    font-size: 19px;
+    background-color: var(--main-color);
+    color: var(--title-color);
+}
+.nav-bar .container .row nav a button:hover{
+    background-color: var(--hover-color);
+}
+/* navbar-end */
+
+
+/* Form-Start */
+.ticket-section {
+    background-image: url(../images/nicholas-green-unsplash-blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 130px;
+
+}
+.ticket-section .container .row .all-form{
+    border-radius: 13px;
+    margin-bottom: 250px;
+}
+.ticket-section .container .row .all-form form h2{
+    margin-top: 26px;
+}
+.ticket-section .container .row .all-form form input{
+    margin-bottom: 26px;
+    border-radius: 9px;
+}
+.ticket-section .container .row .all-form .ticket-form-body button{
+    margin-top: 29px;
+    margin-bottom: 36px;
+    color: var(--title-color);
+    background-color: var(--main-color);
+    height: 46px;
+    border: 0;
+    font-size: 18px;
+    border-radius: 26px;
+}
+.ticket-section .container .row .all-form .ticket-form-body button:hover{
+    background-color: var(--hover-color);
+}
+/* Form-End */
+
+
+/* section-5-Start */
+.section-5{
+    background-color: var(--main-color);
+    height: 100%;
+    padding:13px 0 13px 0 ;
+}
+.section-5 .container .row .title{
+    color: var(--title-color);
+    font-size: 15px;
+}
+.section-5 .container .row .icon {
+    text-align: center;
+    align-items: center;
+} 
+.section-5 .container .row .icon i{
+    padding-left: 16px;
+    margin-top:26px;
+    font-size: 26px;
+    color: var(--title-color);
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.section-5 .container .row .icon i:hover{
+    color: black;
+}
+/* section-5-End */
+
+/* footer-Start */
+footer{
+    height: 100%;
+    padding-top: 116px;
+    padding-bottom: 116px;
+    background-color: black;
+}  
+footer .container .row .links{
+    padding-bottom: 66px;
+}
+footer .container .row .links h4{
+    color: var(--main-color);
+    padding-bottom: 16px;
+}
+footer .container .row .links a{
+    text-decoration: none;
+    color: var(--title-color);
+    font-size: 18px;
+    padding-right: 16px;
+}
+footer .container .row .links a:hover{
+    color: var(--hover-color);
+}
+footer .container .row .ques{
+    padding-bottom: 66px;
+}
+footer .container .row .ques h4{
+    color: var(--main-color);
+    padding-bottom: 16px;
+}
+footer .container .row .ques p{
+    color: var(--title-color);
+}
+footer .container .row .ques p:hover{
+    color: var(--hover-color);
+}
+footer .container .row .loc{
+    padding-bottom: 66px;
+}
+footer .container .row .loc h4{
+    color: var(--main-color);
+    padding-bottom: 16px;
+}
+footer .container .row .loc p{
+    color: var(--title-color);
+}
+footer .container .row .loc button{
+    width: 130px;
+    height: 48px;
+    border: 0;
+    border-bottom: 2px solid var(--title-color);
+    font-size: 16px;
+    background-color: black;
+    color: var(--title-color);
+}
+footer .container .row .loc button:hover{
+    color: var(--hover-color);
+    border-bottom:2px solid var(--hover-color);
+}
+/* footer-End */
